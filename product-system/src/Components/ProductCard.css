@@ -1,0 +1,50 @@
+
+.ProductCard {
+  display: inline-block;
+  justify-content: center;
+  margin: 16px;
+}
+
+
+.paperStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.imageInCard {
+  width: 150px;
+  height: 150px; 
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.card-price {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 8px;
+}
+
+.card-description {
+  position: relative;
+  max-height: 3em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
